@@ -28,8 +28,8 @@ class Example(QWidget):
     def draw(self, qp):
         rad = random.randint(10, 150)
         qp.setPen(QColor(255, 255, 0))
-        x = random.randint(10, 250)
-        y = random.randint(10, 250)
+        x = random.randint(10, 500)
+        y = random.randint(10, 500)
         qp.drawEllipse(x, y, 2 * rad, 2 * rad)
 
 
